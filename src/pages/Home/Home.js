@@ -89,73 +89,75 @@ const Home = () => {
             }
             <br></br>
             <br></br>
-            <div className="w-full">
-              {"Minhas principais stacks são "}
-              <Badge href="https://react.dev/">
-                <ReactIcon />
-                React
-              </Badge>
-              {", "}
-              <Badge href="https://reactnative.dev/">
-                <ReactIcon />
-                React Native
-              </Badge>
-              {", "}
-              <Badge href="https://www.typescriptlang.org/">
-                <TypeScriptIcon />
-                TypeScript
-              </Badge>
-              {", "}
-              <Badge href="https://nodejs.org/en">
-                <NodeIcon />
-                NodeJs
-              </Badge>
-              <Badge href="https://redux.js.org/">
-                <ReduxIcon />
-                Redux
-              </Badge>
-              {", "}
-              <Badge href="https://vite.dev/">
-                <ViteIcon />
-                Vite
-              </Badge>
-              {", "}
-              <Badge href="https://tailwindcss.com/">
-                <TailwindIcon />
-                Tailwind CSS
-              </Badge>
-              {", "}
-              <Badge href="https://mui.com/material-ui/">
-                <MaterialUiIcon />
-                Material Ui
-              </Badge>
-              {", "}
-              <Badge href="https://getbootstrap.com/">
-                <BootsTrapIcon />
-                BootsTrap
-              </Badge>
-              {", "}
-              <Badge href="https://sass-lang.com/">
-                <ScssIcon />
-                SCSS
-              </Badge>
-              {", "}
-              <Badge href="https://www.w3schools.com/css/">
-                <CssIcon />
-                Css
-              </Badge>
-              <Badge href="https://www.w3schools.com/html/">
-                <HtmlIcon />
-                HTML
-              </Badge>
-              {", "}
-              <Badge href="https://jquery.com/">
-                <Jquery />
-                JQuery
-              </Badge>
-              .
-            </div>
           </h1>
+          <div className="w-full text-[18px]">
+            {"Minhas principais stacks são "}
+            <Badge href="https://react.dev/">
+              <ReactIcon />
+              React
+            </Badge>
+            {", "}
+            <Badge href="https://reactnative.dev/">
+              <ReactIcon />
+              React Native
+            </Badge>
+            {", "}
+            <Badge href="https://www.typescriptlang.org/">
+              <TypeScriptIcon />
+              TypeScript
+            </Badge>
+            {", "}
+            <Badge href="https://nodejs.org/en">
+              <NodeIcon />
+              NodeJs
+            </Badge>
+            {", "}
+            <Badge href="https://redux.js.org/">
+              <ReduxIcon />
+              Redux
+            </Badge>
+            {", "}
+            <Badge href="https://vite.dev/">
+              <ViteIcon />
+              Vite
+            </Badge>
+            {", "}
+            <Badge href="https://tailwindcss.com/">
+              <TailwindIcon />
+              Tailwind CSS
+            </Badge>
+            {", "}
+            <Badge href="https://mui.com/material-ui/">
+              <MaterialUiIcon />
+              Material Ui
+            </Badge>
+            {", "}
+            <Badge href="https://getbootstrap.com/">
+              <BootsTrapIcon />
+              BootsTrap
+            </Badge>
+            {", "}
+            <Badge href="https://sass-lang.com/">
+              <ScssIcon />
+              SCSS
+            </Badge>
+            {", "}
+            <Badge href="https://www.w3schools.com/css/">
+              <CssIcon />
+              Css
+            </Badge>
+            {", "}
+            <Badge href="https://www.w3schools.com/html/">
+              <HtmlIcon />
+              HTML
+            </Badge>
+            {", "}
+            <Badge href="https://jquery.com/">
+              <Jquery />
+              JQuery
+            </Badge>
+            .
+          </div>
 
           <div className="mt-10">
             <h1 className="font-semibold mb-6 text-xl">📌 Posts recentes</h1>
