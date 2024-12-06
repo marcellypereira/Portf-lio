@@ -47,20 +47,20 @@ export default function WorkPage() {
     "🌐 frontend": [
       {
         title: "Book Management",
-        description: "Plataforma para gerenciamento de Livros",
+        description: "Plataforma para gerenciamento de Livros.",
         link: "https://github.com/marcellypereira/book-management",
         tags: ["react", "typescript", "json server"],
       },
       {
         title: "Soller",
         description:
-          "Site de vendas especializado em soluções de energia solar",
+          "Site de vendas especializado em soluções de energia solar.",
         link: "https://github.com/marcellypereira/Buzzvel-Teste",
         tags: ["react.js", "tailwind-css", "framer-motion"],
       },
       {
         title: "Travel",
-        description: "Plataforma de viagens",
+        description: "Plataforma de viagens.",
         link: "https://github.com/marcellypereira/platform-travel",
         tags: ["react.js", "tailwind-css", "vite"],
       },
@@ -73,13 +73,13 @@ export default function WorkPage() {
       {
         title: "Animais fantásticos",
         description:
-          "Site Animais Fantásticos para colocar em prática os conhecimentos aprendidos no curso de JavaScript ES6 da Origamid",
+          "Site Animais Fantásticos para colocar em prática os conhecimentos aprendidos no curso de JavaScript ES6 da Origamid.",
         link: "https://github.com/marcellypereira/animais-fantasticos",
         tags: ["html", "css", "javascript", "node.js"],
       },
       {
         title: "E-commerce",
-        description: "Simulador de comércio eletrônico com React",
+        description: "Simulador de comércio eletrônico com React.",
         link: "https://github.com/marcellypereira/e-commerce",
         tags: ["react.js", "node.js"],
       },
