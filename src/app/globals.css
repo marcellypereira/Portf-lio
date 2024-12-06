@@ -12,27 +12,27 @@ body {
   }
 
   h1 {
-    @apply font-semibold text-3xl tracking-tighter;
+    @apply font-semibold text-3xl;
     letter-spacing: 0.02em;
   }
 
   h2 {
-    @apply font-medium text-2xl tracking-tighter;
+    @apply font-medium text-2xl;
     letter-spacing: 0.02em;
   }
 
   h3 {
-    @apply font-thin text-[22px] tracking-tighter;
+    @apply font-thin text-[22px];
     letter-spacing: 0.02em;
   }
 
   h4 {
-    @apply font-thin text-[18px] tracking-tighter;
+    @apply font-thin text-[18px];
     letter-spacing: 0.02em;
   }
 
   p {
-    @apply text-[15px] tracking-tighter;
+    @apply text-[15px] ;
     letter-spacing: 0.1em;
     line-height: 2;
   }

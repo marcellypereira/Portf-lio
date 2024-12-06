@@ -22,7 +22,7 @@ import BootsTrapIcon from "..//..//components/Svg/BootsTrap/BootsTrap";
 import ScssIcon from "../../components/Svg/Scss/Scss";
 import CssIcon from "../../components/Svg/Css/Css";
 import HtmlIcon from "../../components/Svg/Html/Html";
-import Jquery from "../../components/Svg/Jquery/Jquery"
+import Jquery from "../../components/Svg/Jquery/Jquery";
 
 const Home = () => {
   const socialMediaLinks = [
@@ -80,7 +80,7 @@ const Home = () => {
           <div className="flex flex-wrap gap-2 mt-4 mb-10 text-sm">
             {renderSocialLinks()}
           </div>
-          <p className="prose prose-neutral dark:prose-invert">
+          <h1 className="prose prose-neutral dark:prose-invert text-base">
             {"Sou desenvolvedora Front-end com 2 anos de experiência, tendo"}
             <br></br>
             <NavigationLink to="/experiences">trabalhado</NavigationLink>
@@ -155,10 +155,10 @@ const Home = () => {
               </Badge>
               .
             </div>
-          </p>
+          </h1>
 
           <div className="mt-10">
-            <h3 className="font-semibold mb-6">📌 Posts recentes</h3>
+            <h1 className="font-semibold mb-6 text-xl">📌 Posts recentes</h1>
             <div className="flex gap-10 mb-3">
               <ContentBlock
                 title=" ChatGPT: O Melhor Amigo (ou Vilão?) do Desenvolvedor?"
@@ -169,9 +169,9 @@ const Home = () => {
           </div>
 
           <div className="mt-10">
-            <h3 className="font-medium text-xl mb-4 tracking-tighter">
+            <h1 className="font-semibold mb-4 text-xl">
               💼 Alguns dos meus projetos
-            </h3>
+            </h1>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <ProjectBlock
                 title="Buzzvel Soller"

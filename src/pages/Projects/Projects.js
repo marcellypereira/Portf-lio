@@ -131,11 +131,9 @@ export default function WorkPage() {
           </NavigationLink>
         </nav>
       </header>
-      <h1 className="font-medium text-2xl mb-8 tracking-tighter mt-20">
-        meus projetos 🚀
-      </h1>
+      <h1 className="font-semibold text-2xl mb-8 mt-20">meus projetos 🚀</h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
+        <h1 className="text-base font-normal">
           Aqui estão alguns dos meus projetos públicos. Você pode encontrar mais
           no meu perfil do{" "}
           <a
@@ -149,7 +147,7 @@ export default function WorkPage() {
           <span className="font-bold">frontend</span>, e{" "}
           <span className="font-bold">mobile</span>. Muito desses projetos são
           feitos para estudo e aprendizado, mas alguns são feitos para testes.
-        </p>
+        </h1>
 
         <h3 className="font-medium text-xl mt-8">🔍 busque por categoria</h3>
         <div className="flex flex-wrap space-x-1 mt-4">

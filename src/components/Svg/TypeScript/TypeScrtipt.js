@@ -18,17 +18,17 @@ const TypeScript = () => {
         <g
           id="build-tools/typescript"
           stroke="none"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
-          fill-rule="evenodd"
+          fillRule="evenodd"
         >
           <g id="container" transform="translate(-2.000000, -2.000000)">
             <rect
               id="mask"
               stroke="#003355"
-              stroke-width="2"
+              strokeWidth="2"
               fill="#FFFFFF"
-              fill-rule="nonzero"
+              fillRule="nonzero"
               x="3"
               y="3"
               width="71"
@@ -40,14 +40,14 @@ const TypeScript = () => {
             </mask>
             <rect
               stroke="#003355"
-              stroke-width="2"
+              strokeWidth="2"
               x="3"
               y="3"
               width="71"
               height="71"
               rx="14"
             ></rect>
-            <g id="logo" mask="url(#mask-2)" fill="#007ACC" fill-rule="nonzero">
+            <g id="logo" mask="url(#mask-2)" fill="#007ACC" fillRule="nonzero">
               <g
                 id="Group"
                 transform="translate(36.500000, 36.500000) scale(-1, 1) rotate(-180.000000) translate(-36.500000, -36.500000) "

@@ -17,15 +17,13 @@ export default function WorkPage() {
           </NavigationLink>
         </nav>
       </header>
-      <h1 className="font-medium text-2xl mb-8 tracking-tighter mt-20">
-        minhas experiências
-      </h1>
+      <h1 className="font-semibold text-2xl mb-8 mt-20">minhas experiências</h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
+        <h1 className="text-base font-normal">
           Na missão de criar produtos que os usuários amam e, ao longo do
           caminho, compartilhar conhecimento. Aqui está um resumo do meu
           trabalho até agora.
-        </p>
+        </h1>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         <h2 className="font-medium text-xl mb-1 tracking-tighter mb-4">
