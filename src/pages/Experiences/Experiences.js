@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer/Footer";
 import NavigationLink from "../../components/NavigationLink/NavigationLink";
 
-export default function WorkPage() {
+function Experience() {
   return (
     <section>
       <header className="pt-10">
@@ -120,3 +120,5 @@ export default function WorkPage() {
     </section>
   );
 }
+
+export default Experience;

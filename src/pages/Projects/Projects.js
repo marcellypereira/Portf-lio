@@ -42,7 +42,7 @@ const ProjectsList = ({ projects }) => {
   );
 };
 
-export default function WorkPage() {
+function Projects() {
   const projects = {
     "🌐 frontend": [
       {
@@ -170,3 +170,5 @@ export default function WorkPage() {
     </section>
   );
 }
+
+export default Projects;

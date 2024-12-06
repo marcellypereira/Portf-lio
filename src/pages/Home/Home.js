@@ -24,7 +24,7 @@ import CssIcon from "../../components/Svg/Css/Css";
 import HtmlIcon from "../../components/Svg/Html/Html";
 import Jquery from "../../components/Svg/Jquery/Jquery";
 
-const Home = () => {
+function Home () {
   const socialMediaLinks = [
     {
       url: "https://www.linkedin.com/in/marcelly-pereira/",
