@@ -1,20 +1,20 @@
 import Footer from "@/components/Footer/Footer";
-import NavigationLink from "../../components/NavigationLink/NavigationLink";
+import Link from "next/link";
 
 function Experience() {
   return (
     <section>
       <header className="pt-10">
         <nav className="flex space-x-6">
-          <NavigationLink to="/" className="no-underline">
+          <a href="/home" className="no-underline">
             Home
-          </NavigationLink>
-          <NavigationLink to="/projects" className="no-underline">
-            Projetos
-          </NavigationLink>
-          <NavigationLink to="/experiences" className="no-underline">
+          </a>
+          <a href="/projects" className="no-underline">
+            Projehrefs
+          </a>
+          <a href="/experiences" className="no-underline">
             Experiências
-          </NavigationLink>
+          </a>
         </nav>
       </header>
       <h1 className="font-semibold text-2xl mb-8 mt-20">minhas experiências</h1>

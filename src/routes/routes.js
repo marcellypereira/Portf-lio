@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Home from "../pages/Home/Home.js";
-import Projects from "../pages/Projects/Projects.js";
-import Experiences from "../pages/Experiences/Experiences.js";
+import Home from "../pages/Home";
+import Projects from "../pages/Projects";
+import Experiences from "../pages/Experiences"
 
 function AppRoutes() {
   const [isBrowser, setIsBrowser] = useState(false);

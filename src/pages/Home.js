@@ -1,30 +1,29 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Footer from "../../components/Footer/Footer";
-import { Link } from "react-router-dom";
+import Footer from "../components/Footer/Footer";
+import Link from "next/link";
 import GithubIcon from "@/components/Svg/GithubIcon/GithubIcon";
 import Instagram from "@/components/Svg/Instagram/Instagram";
 import X from "@/components/Svg/X/X";
-import SocialLink from "../../components/SocialLink/SocialLink";
-import ContentBlock from "../../components/ContentBlock/ContentBlock";
-import ProjectBlock from "../../components/ProjectBlock/ProjectBlock";
-import NavigationLink from "../../components/NavigationLink/NavigationLink";
-import Badge from "../../components/Badge/Badge";
-import LinkedInIcon from "../../components/Svg/LinkedIn/LinkedIn";
-import ReactIcon from "../../components/Svg/React/React";
-import TypeScriptIcon from "../../components/Svg/TypeScript/TypeScrtipt";
-import NodeIcon from "../../components/Svg/Node/Node";
-import ReduxIcon from "../../components/Svg/Redux/Redux";
-import ViteIcon from "../../components/Svg/Vite/Vite";
-import TailwindIcon from "../../components/Svg/Tailwindcss/Tailwindcss";
-import MaterialUiIcon from "../../components/Svg/MaterialUi/MaterialUi";
-import BootsTrapIcon from "..//..//components/Svg/BootsTrap/BootsTrap";
-import ScssIcon from "../../components/Svg/Scss/Scss";
-import CssIcon from "../../components/Svg/Css/Css";
-import HtmlIcon from "../../components/Svg/Html/Html";
-import Jquery from "../../components/Svg/Jquery/Jquery";
+import SocialLink from "../components/SocialLink/SocialLink";
+import ContentBlock from "../components/ContentBlock/ContentBlock";
+import ProjectBlock from "../components/ProjectBlock/ProjectBlock";
+import Badge from "../components/Badge/Badge";
+import LinkedInIcon from "../components/Svg/LinkedIn/LinkedIn";
+import ReactIcon from "../components/Svg/React/React";
+import TypeScriptIcon from "../components/Svg/TypeScript/TypeScrtipt";
+import NodeIcon from "../components/Svg/Node/Node";
+import ReduxIcon from "../components/Svg/Redux/Redux";
+import ViteIcon from "../components/Svg/Vite/Vite";
+import TailwindIcon from "../components/Svg/Tailwindcss/Tailwindcss";
+import MaterialUiIcon from "../components/Svg/MaterialUi/MaterialUi";
+import BootsTrapIcon from "../components/Svg/BootsTrap/BootsTrap";
+import ScssIcon from "../components/Svg/Scss/Scss";
+import CssIcon from "../components/Svg/Css/Css";
+import HtmlIcon from "../components/Svg/Html/Html";
+import Jquery from "../components/Svg/Jquery/Jquery";
 
-function Home () {
+function Home() {
   const socialMediaLinks = [
     {
       url: "https://www.linkedin.com/in/marcelly-pereira/",
@@ -58,17 +57,18 @@ function Home () {
     <div>
       <header className="pt-10">
         <nav className="flex space-x-6">
-          <NavigationLink to="/" className="no-underline">
+          <Link href="/" className="no-underline">
             Home
-          </NavigationLink>
-          <NavigationLink to="/projects" className="no-underline">
+          </Link>
+          <Link href="/projects" className="no-underline">
             Projetos
-          </NavigationLink>
-          <NavigationLink to="/experiences" className="no-underline">
+          </Link>
+          <Link href="/experiences" className="no-underline">
             Experiências
-          </NavigationLink>
+          </Link>
         </nav>
       </header>
+
       <div className="font-medium text-2xl mb-2 tracking-tighter text-gray-900 dark:text-gray-400">
         <div className="mt-20">
           <h1 className="font-medium text-2xl mb-2 tracking-tighter text-gray-900 dark:text-gray-400">
@@ -83,7 +83,7 @@ function Home () {
           <h1 className="prose prose-neutral dark:prose-invert text-base">
             {"Sou desenvolvedora Front-end com 2 anos de experiência, tendo"}
             <br></br>
-            <NavigationLink to="/experiences">trabalhado</NavigationLink>
+            <Link href="/experiences">trabalhado</Link>
             {
               " em projetos desafiadores tanto para o desenvolvimento web quanto mobile, atuando em empresas de diferentes portes e setores."
             }
@@ -187,7 +187,7 @@ function Home () {
               />
             </div>
             <Link
-              to="/projects"
+              href="/projects"
               className="underline text-sm flex justify-end mt-4"
             >
               Ver mais
@@ -198,6 +198,6 @@ function Home () {
       </div>
     </div>
   );
-};
+}
 
 export default Home;

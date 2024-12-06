@@ -1,5 +1,4 @@
 import Link from "next/link";
-import NavigationLink from "../../components/NavigationLink/NavigationLink";
 import Footer from "@/components/Footer/Footer";
 
 const ProjectsList = ({ projects }) => {
@@ -120,15 +119,15 @@ function Projects() {
     <section>
       <header className="pt-10">
         <nav className="flex space-x-6">
-          <NavigationLink to="/" className="no-underline">
+          <Link href="/" className="no-underline">
             Home
-          </NavigationLink>
-          <NavigationLink to="/projects" className="no-underline">
+          </Link>
+          <Link href="/projects" className="no-underline">
             Projetos
-          </NavigationLink>
-          <NavigationLink to="/experiences" className="no-underline">
+          </Link>
+          <Link href="/experiences" className="no-underline">
             Experiências
-          </NavigationLink>
+          </Link>
         </nav>
       </header>
       <h1 className="font-semibold text-2xl mb-8 mt-20">meus projetos 🚀</h1>
